@@ -1,6 +1,6 @@
 # Minimal makefile for Sphinx documentation
 #
-GH_PAGES_SOURCES = docs/ code/
+GH_PAGES_SOURCES = source/ code/ Makefile
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
