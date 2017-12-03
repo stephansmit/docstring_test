@@ -1,6 +1,6 @@
 # Minimal makefile for Sphinx documentation
 #
-GH_PAGES_SOURCES = docs code
+GH_PAGES_SOURCES = docs/ code/
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
@@ -16,7 +16,7 @@ help:
 
 gh-pages:
 	git checkout gh-pages
-	rm -rf build _sources _static
+	rm -rf * 
 	git checkout master $(GH_PAGES_SOURCES)
 	git reset HEAD
 	(cd docs/ && make html)
