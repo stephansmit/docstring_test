@@ -19,7 +19,7 @@
 import os
 import sys
 #ys.path.insert(0, os.path.abspath('../an_example_pypi_project'))
-sys.path.append(os.path.abspath('../../../docstring_test/'))#os.path.abspath('/home/azureuser/Documents/docstring_test/an_example_pypi_project'))
+sys.path.append(os.path.abspath('../../code/'))#os.path.abspath('/home/azureuser/Documents/docstring_test/an_example_pypi_project'))
 
 # -- General configuration ------------------------------------------------
 
